@@ -9,10 +9,6 @@
                 </a>
             </div>
             <div class="flex items-center space-x-6">
-                {{-- 
-                  Setiap link navigasi membawa query param 'username'
-                  agar username tetap ada saat berpindah halaman
-                --}}
                 <a href="{{ route('dashboard', ['username' => $username]) }}" 
                    class="text-gray-300 hover:text-blue-400 font-medium">
                    Dashboard
@@ -33,4 +29,5 @@
         </div>
     </div>
 </nav>
+
 
